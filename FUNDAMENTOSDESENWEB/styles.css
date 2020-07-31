@@ -1,0 +1,47 @@
+body{
+	background-color: #D3D3D3;
+	}
+#pinicial{
+	width: 960px; /* Largura do div pinicial */
+	margin: auto;  /* margem automatica do div pinicial */
+	background-color: #D3D3D3
+}
+header h1{
+	font-family: Lemon Tuesday;
+	background-color: #a35a30;
+
+}
+header nav ul{
+	font-family: impact;
+	list-style: none;
+}
+header nav ul li {
+	display: inline; /* Deixa os elementos da lista em linha*/
+	margin-right: 30px;
+}
+header nav ul li a{
+	color: black;
+	text-decoration: none;
+}
+
+#envelope{
+	width: 960px;
+	margin: auto;
+	overflow: hidden; /* manter todas as outras divs no mesmo "tamanho" */
+}
+#sessao{
+	width:480px;
+	background-color: #D3D3D3;
+	float: left;
+	margin-left: 10px; /* flutuando pra esquerda */
+}
+#lateral{
+	float: right;
+	margin-right: 10px; /* flutuando pra direita */
+	font-family: Berlin Sans FB;
+	background-color: #bfa38d;
+	width: 250px;
+}
+section p {
+	font-family: Berlin Sans FB; 
+}
