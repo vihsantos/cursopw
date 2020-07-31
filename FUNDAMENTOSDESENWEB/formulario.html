@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CENTRAL DE FÃS</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<div id="info">
+		<header>
+			<h1><center> Central de Fãs </center></h1>
+			<center><img src="img/outroeu.jpg"></center>
+		</header>
+		<section>
+			<center><h2> Para participar da central, basta preencher o formulário abaixo: </h2></center>
+		</section>
+		<div id="dados">
+			<form action="" method="get">
+				<label for="nome"> Nome:</label>
+				<input id="nome" type="text" placeholder="Insira o seu nome" name="nome"> <!-- Placeholder é a frase que fica dentro da caixinha do nome -->
+				<input type="submit" value="Enviar"> <!-- botão -->
+				<label for="opção">Você possui redes sociais?</label>
+				<input type="radio" name="opção" value="Sim" checked="checked"> Sim <!-- o checked mantém uma opção selecionada -->
+				<input type="radio" name="opção" value="Não"> Não
+				<input type="submit" value="Enviar">
+				<label for="questão">Se a resposta anterior for positiva, selecione quais?</label>
+				<input type="checkbox" name="instagram">Instagram
+				<input type="checkbox" name="twitter">Twitter
+				<input type="checkbox" name="facebook">Facebook
+				<input type="checkbox" name="outros">Outros
+				<input type="submit" value="Enviar">
+				<label for="email"> Email</label>
+				<input id="email" type="text" placeholder="Insira o seu email" name="email">
+				<input type="submit" value="Enviar">
+				<label for="porque">Por qual motivo você quer participar da central de fãs?</label>
+				<textarea></textarea>
+				<input type="submit" value="Enviar">
+				<label for="senha"> Insira uma senha </label>
+				<input type="password" name="senha">
+				<input type="submit" value="Enviar">
+				<br>
+				<input type="reset" value="Reset">
+			</form>
+		</div>
+	</div>
+</body>
+</html>
