@@ -1,0 +1,11 @@
+#block{
+	width: 960px; /* Largura do div pinicial */
+	margin: auto;  /* margem automatica do div pinicial */
+}
+body{
+	background-color: #D3D3D3;
+}
+label{
+	font-size: 18px;
+	display: block;
+}
